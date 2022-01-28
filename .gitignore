@@ -1,0 +1,40 @@
+# Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.heic
+*.JPG
+*.JPEG
+*.PNG
+*.BMP
+*.TIF
+*.TIFF
+*.HEIC
+*.mp4
+*.mov
+*.MOV
+*.avi
+*.data
+*.json
+*.cfg
+
+# virtualenv
+.venv*
+venv*/
+ENV*/
+
+# Datasets_models -------------------------------------------------------------------------------------------------------------
+hlcnn/dataset
+hlcnn/models
+hlcnn/results
+hlcnn/log_dir
+hlcnn/output
+
+# GitHub Python GitIgnore ----------------------------------------------------------------------------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
